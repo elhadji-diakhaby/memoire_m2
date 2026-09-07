@@ -1,0 +1,24 @@
+# Fichiers lourds / données brutes
+*.las
+*.laz
+*.copc.laz
+*.tif
+*.tiff
+*.hdf
+*.h5
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# SIG temporaires
+*.aux.xml
+*.ovr
+*.lock
+
+# Système
+Thumbs.db
+.DS_Store

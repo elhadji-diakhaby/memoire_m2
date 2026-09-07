@@ -1,0 +1,36 @@
+MÉTHODOLOGIE — BASSIN VERSANT DU VATENCUL (VERSION DE BASE, SANS DONNÉES SUEZ)
+
+1. Donnée principale
+MNT LiDAR HD à 0,5 m en EPSG:2154.
+
+2. Continuité du Vatencul
+Les tronçons morphologiquement visibles du Vatencul ont été utilisés comme axe de référence.
+Les interruptions entre ces tronçons, correspondant aux secteurs où le cours d'eau est enterré ou interrompu par des infrastructures, ont été raccordées par des continuités fonctionnelles étroites.
+
+3. Hydro-conditionnement
+Le MNT a été modifié uniquement au niveau de ces raccords afin de permettre la continuité hydraulique entre les tronçons connus.
+Le reste du MNT n'a pas été artificiellement creusé.
+
+4. Prétraitement hydrologique
+Un BreachDepressions a été appliqué au MNT hydro-conditionné afin de franchir les dépressions et obstacles résiduels sans réaliser un remplissage généralisé du relief.
+
+5. Direction et accumulation
+La direction d'écoulement D8 puis l'accumulation D8 ont été calculées sur le MNT corrigé.
+
+6. Exutoire
+L'exutoire retenu pour cette version de base est :
+X = 643225,25 m
+Y = 6844872,75 m
+EPSG:2154
+
+Il se situe à l'extrémité aval du Vatencul, juste avant son raccord avec l'Yvette, afin de ne pas intégrer le bassin amont de l'Yvette.
+
+7. Délimitation
+Le bassin a été obtenu en remontant le réseau D8 depuis cette cellule exutoire.
+
+8. Résultat
+Surface du bassin : environ 73,1 ha.
+
+IMPORTANT
+Cette version correspond au bassin topographique/hydro-conditionné de base.
+Aucune donnée SUEZ n'a été utilisée pour étendre ou modifier la limite du bassin.

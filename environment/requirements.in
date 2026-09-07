@@ -1,0 +1,12 @@
+numpy
+pandas
+geopandas
+rasterio
+fiona
+shapely
+scipy
+matplotlib
+pyflwdir
+pyogrio
+laspy
+python-docx
