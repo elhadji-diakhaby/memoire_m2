@@ -1,6 +1,6 @@
-famille,producteur,adresse,statut_github
-LiDAR HD nuages et MNT,IGN,https://geoservices.ign.fr/lidarhd,non_versionne
-BD TOPO,IGN,https://geoservices.ign.fr/bdtopo,non_versionne
-BD ORTHO,IGN,https://geoservices.ign.fr/bdortho,non_versionne
-MOS Île-de-France,Institut Paris Region,https://data.iledefrance.fr/,non_versionne
+famille,producteur,adresse
+LiDAR HD nuages et MNT,IGN,https://geoservices.ign.fr/lidarhd
+BD TOPO,IGN,https://geoservices.ign.fr/bdtopo
+BD ORTHO,IGN,https://geoservices.ign.fr/bdortho,
+MOS Île-de-France,Institut Paris Region,https://data.iledefrance.fr/
 Données pluviométriques,Météo-France,https://meteo.data.gouv.fr/,extrait_evenement_inclus
